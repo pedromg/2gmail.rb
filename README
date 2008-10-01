@@ -1,0 +1,33 @@
+= 2gmail.rb
+
+== description
+
+  * this script enables you to upload to Google Mail (Gmail or Google Apps for Your Domain) you emails after packing them in a mbox file.
+  * you can select a remote folder to send the messages into
+  * full description with screenshots in here: http://blog.tquadrado.com/?page_id=181
+  * a LOG file is created for you to check possible errors. 
+  * if the script stops, you can restart it specifying a STARTING_MESSAGE.
+
+== rememeber: 
+
+  * insert your login and password at the end of the script in the login and passwd variables, and save this file.
+  * of couse, be very carefull if you send this to a friend... REMOVE your credentials first!
+  * if you are using Google Hosted for your Domain (Google Apps), your_login is something like: me@mydomain.com
+  * example: go = GoGmail.new($*[0], 'imap.gmail.com', 993, $*[1], 'tree@forest.org', 'littlebird', $*[2])
+
+== usage:
+  $ chmod u+x 2gmail.rb
+  $ ./2gmail.rb MBOX_FILE GMAIL_FOLDER [STARTING_MESSAGE]
+
+==  examples:
+    $ ./2gmail.rb Inbox tempInbox 250
+    $ ruby 2gmail.rb Inbox tempInbox 250
+    $ /path/to/ruby/ruby 2gmail.rb Inbox tempInbox 250
+
+== notice:
+  * v0.9.1
+  * who: pedro.mota@gmail.com 
+  * when: 03-dec-2007
+  * what: this is free software. use. refactor. share.
+  * the author will not be responsible for any bumps during the journey! This was done in some minutes!
+

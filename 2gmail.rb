@@ -1,10 +1,10 @@
 #! /usr/bin/ruby
 
 ##
-# == rememeber: 
+# == remember: 
 #   * insert your login and password at Line 100, and save this file.
 #   * of couse, be very carefull if you send this to a friend... REMOVE your credentials first!
-*   * if you are using Google Hosted for your Domain (Google Apps), your_login is something like: me@mydomain.com
+#   * if you are using Google Hosted for your Domain (Google Apps), your_login is something like: me@mydomain.com
 #   * example: go = GoGmail.new($*[0], 'imap.gmail.com', 993, $*[1], 'tree@forest.org', 'littlebird', $*[2])
 #
 # == usage:

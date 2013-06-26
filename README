@@ -15,6 +15,9 @@
   * if you are using Google Hosted for your Domain (Google Apps), your_login is something like: me@mydomain.com
   * example: go = GoGmail.new($*[0], 'imap.gmail.com', 993, $*[1], 'tree@forest.org', 'littlebird', $*[2])
 
+== ruby:
+  * since mailread.rb was removed from the standard library, please run under Ruby 1.8.7
+  
 == usage:
   $ chmod u+x 2gmail.rb
   $ ./2gmail.rb MBOX_FILE GMAIL_FOLDER [STARTING_MESSAGE]
